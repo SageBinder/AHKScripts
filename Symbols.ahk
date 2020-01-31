@@ -14,3 +14,7 @@ Return
 ^l::
     Send, ( ͡° ͜ʖ ͡°)
 Return
+
+^+l::
+	Send, (☞ ͡° ͜ʖ ͡°)☞
+Return
