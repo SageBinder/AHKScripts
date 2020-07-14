@@ -31,6 +31,7 @@ sequences := {"not": "¬"
 
     , "define": "≔"
     , "defined": "≔"
+    , "def": "≔"
 
     , "provable": "⊢"
 
