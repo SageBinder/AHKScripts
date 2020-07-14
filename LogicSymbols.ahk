@@ -16,6 +16,7 @@ sequences := {"not": "¬"
     , "if": "⇒"
     , "then": "⇒"
     , "implication": "⇒"
+    , "implies": "⇒"
 
     , "iff": "⇔"
     , "equivalence": "⇔"
