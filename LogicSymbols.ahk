@@ -23,6 +23,12 @@ sequences := {"not": "¬"
     , "equals": "⇔"
     , "equal": "⇔"
 
+    , "nequals": "≠"
+    , "nequal": "≠"
+    , "notequals": "≠"
+    , "notequal": "≠"
+    , "unequal": "≠"
+
     , "all": "∀"
     , "forall": "∀"
     , "universal": "∀"
