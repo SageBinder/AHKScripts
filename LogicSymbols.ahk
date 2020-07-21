@@ -13,6 +13,8 @@ sequences := {"not": "¬"
     , "xor": "⊕"
     , "xdisjunction": "⊕"
 
+    , "therefore": "∴"
+
     , "if": "⇒"
     , "then": "⇒"
     , "implication": "⇒"
@@ -52,7 +54,56 @@ sequences := {"not": "¬"
     , "false": "⊥"
     , "contradiction": "⊥"
     , "bottom": "⊥"
-    , "0": "⊥"}
+    , "0": "⊥"
+
+    , "in": "∈"
+
+    , "notin": "∉"
+
+    , "emptyset": "∅"
+    , "empty": "∅"
+
+    , "leq": "≤"
+
+    , "geq": "≥"
+
+    , "natural": "ℕ"
+    , "naturals": "ℕ"
+    , "naturalnums": "ℕ"
+    , "naturalnumbers": "ℕ"
+
+    , "integers": "ℤ"
+    , "integer": "ℤ"
+    , "ints": "ℤ"
+
+    , "rational": "ℚ"
+    , "rationals": "ℚ"
+    , "rationalnums": "ℚ"
+    , "rationalnumbers": "ℚ"
+
+    , "irrational": "ℙ"
+    , "irrationals": "ℙ"
+    , "irrationalnums": "ℙ"
+    , "irrationalnumbers": "ℙ"
+
+    , "algebraic": "𝔸"
+    , "algebraics": "𝔸"
+    , "algebraicnums": "𝔸"
+    , "algebraicnumbers": "𝔸"
+
+    , "real": "ℝ"
+    , "reals": "ℝ"
+    , "realnums": "ℝ"
+    , "realnumbers": "ℝ"
+
+    , "imaginary": "𝕀"
+    , "imaginaries": "𝕀"
+    , "imaginarynums": "𝕀"
+    , "imaginarynumbers": "𝕀"
+
+    , "complex": "ℂ"
+    , "complexnums": "ℂ"
+    , "complexnumbers": "ℂ"}
 
 inputQueue =
 
