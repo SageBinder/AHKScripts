@@ -103,7 +103,9 @@ sequences := {"not": "¬"
 
     , "complex": "ℂ"
     , "complexnums": "ℂ"
-    , "complexnumbers": "ℂ"}
+    , "complexnumbers": "ℂ"
+
+    , "heart": "♡"}
 
 inputQueue =
 
