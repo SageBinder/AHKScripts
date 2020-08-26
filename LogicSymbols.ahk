@@ -9,9 +9,11 @@ sequences := {"not": "¬"
 
     , "or": "∨"
     , "idisjunction": "∨"
+    , "idisjunct": "∨"
 
     , "xor": "⊕"
     , "xdisjunction": "⊕"
+    , "xdisjunct": "⊕"
 
     , "therefore": "∴"
 
@@ -60,8 +62,27 @@ sequences := {"not": "¬"
 
     , "notin": "∉"
 
+    , "union": "∪"
+
+    , "subset": "⊆"
+    , "subsetof": "⊆"
+
+    , "propersubset": "⊂"
+    , "psubset": "⊂"
+    , "strictsubset": "⊂"
+
+    , "intersection": "∩"
+    , "intersect": "∩"
+    , "intersects": "∩"
+
+    , "sdiff": "⊕"
+    , "symdiff": "⊕"
+    , "symdifference": "⊕"
+    , "symmetricdifference": "⊕"
+
     , "emptyset": "∅"
     , "empty": "∅"
+    , "eset": "∅"
 
     , "leq": "≤"
 
@@ -85,6 +106,10 @@ sequences := {"not": "¬"
     , "irrationals": "ℙ"
     , "irrationalnums": "ℙ"
     , "irrationalnumbers": "ℙ"
+    , "positivenumbers": "ℙ"
+    , "positives": "ℙ"
+    ," positive": "ℙ"
+    , "positivenums": "ℙ"
 
     , "algebraic": "𝔸"
     , "algebraics": "𝔸"
