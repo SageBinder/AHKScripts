@@ -66,6 +66,7 @@ sequences := {"not": "¬"
     , "cartesianproduct": "×"
     , "cartproduct": "×"
     , "cartprod": "×"
+    , "cross": "×"
 
     , "minus": "−"
     , "subtract": "−"
