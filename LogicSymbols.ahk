@@ -58,6 +58,15 @@ sequences := {"not": "¬"
     , "bottom": "⊥"
     , "0": "⊥"
 
+    , "multiply": "×"
+    , "multiplication": "×"
+    , "mult": "×"
+    , "product": "×"
+    , "times": "×"
+    , "cartesianproduct": "×"
+    , "cartproduct": "×"
+    , "cartprod": "×"
+
     , "minus": "−"
     , "subtract": "−"
     , "min": "−"
@@ -91,6 +100,10 @@ sequences := {"not": "¬"
     , "leq": "≤"
 
     , "geq": "≥"
+
+    , "ellipsis": "…"
+    , "dotdotdot": "…"
+    , "dots": "…"
 
     , "natural": "ℕ"
     , "naturals": "ℕ"
