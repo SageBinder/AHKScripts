@@ -58,6 +58,10 @@ sequences := {"not": "¬"
     , "bottom": "⊥"
     , "0": "⊥"
 
+    , "minus": "−"
+    , "subtract": "−"
+    , "min": "−"
+
     , "in": "∈"
 
     , "notin": "∉"
