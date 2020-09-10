@@ -27,6 +27,7 @@ sequences := {"not": "¬"
     , "equals": "⇔"
     , "equal": "⇔"
 
+    , "neq": "≠"
     , "nequals": "≠"
     , "nequal": "≠"
     , "notequals": "≠"
@@ -73,6 +74,8 @@ sequences := {"not": "¬"
     , "min": "−"
 
     , "in": "∈"
+    , "element": "∈"
+    , "elementof": "∈"
 
     , "notin": "∉"
 
