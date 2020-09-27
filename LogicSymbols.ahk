@@ -17,8 +17,10 @@ sequences := {"not": "¬"
 
     , "therefore": "∴"
 
-    , "if": "⇒"
-    , "then": "⇒"
+    , "if": "→"
+    , "then": "→"
+    , "conditional": "→"
+    
     , "implication": "⇒"
     , "implies": "⇒"
 
