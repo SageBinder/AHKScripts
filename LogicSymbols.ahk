@@ -1,6 +1,7 @@
 ﻿SetKeyDelay, -1
 
-sequences := {"not": "¬"
+sequences := {"neg": "¬"
+    , "not": "¬"
     , "negate": "¬"
     , "negation": "¬"
 
@@ -168,35 +169,35 @@ for name, _ in sequences
 }
 
 
-~0::
-~1::
-~a::
-~b::
-~c::
-~d::
-~e::
-~f::
-~g::
-~h::
-~i::
-~j::
-~k::
-~l::
-~m::
-~n::
-~o::
-~p::
-~q::
-~r::
-~s::
-~t::
-~u::
-~v::
-~w::
-~x::
-~y::
-~z::
-    substring := SubStr(A_ThisHotkey, 2)
+~$0::
+~$1::
+~$a::
+~$b::
+~$c::
+~$d::
+~$e::
+~$f::
+~$g::
+~$h::
+~$i::
+~$j::
+~$k::
+~$l::
+~$m::
+~$n::
+~$o::
+~$p::
+~$q::
+~$r::
+~$s::
+~$t::
+~$u::
+~$v::
+~$w::
+~$x::
+~$y::
+~$z::
+    substring := SubStr(A_ThisHotkey, 3)
     inputQueue .= substring
     if StrLen(inputQueue) > maxNameLength
         inputQueue := SubStr(inputQueue, (maxNameLength - 1) * -1)
