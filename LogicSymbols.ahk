@@ -18,6 +18,7 @@ sequences := {"neg": "¬"
 
     , "therefore": "∴"
 
+    , "to": "→"
     , "if": "→"
     , "then": "→"
     , "conditional": "→"
