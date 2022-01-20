@@ -1,4 +1,5 @@
-﻿SetKeyDelay, -1
+﻿#MaxHotkeysPerInterval, 10000
+SetKeyDelay, -1
 
 sequences := {"neg": "¬"
     , "not": "¬"
@@ -6,48 +7,39 @@ sequences := {"neg": "¬"
     , "negation": "¬"
 
     , "and": "∧"
-    , "conjunction": "∧"
 
     , "or": "∨"
-    , "idisjunction": "∨"
-    , "idisjunct": "∨"
 
     , "xor": "⊕"
-    , "xdisjunction": "⊕"
-    , "xdisjunct": "⊕"
 
     , "therefore": "∴"
+    , "thus": "∴"
 
     , "to": "→"
-    , "if": "→"
-    , "then": "→"
-    , "conditional": "→"
-    
+
+    , "if": "⇒"
+    , "then": "⇒"    
     , "implication": "⇒"
     , "implies": "⇒"
 
     , "iff": "⇔"
-    , "equivalence": "⇔"
-    , "equals": "⇔"
-    , "equal": "⇔"
 
     , "neq": "≠"
-    , "nequals": "≠"
-    , "nequal": "≠"
-    , "notequals": "≠"
-    , "notequal": "≠"
-    , "unequal": "≠"
 
+    , "a": "∀"
     , "all": "∀"
     , "forall": "∀"
     , "universal": "∀"
 
+    , "e": "∃"
     , "exists": "∃"
     , "existential": "∃"
 
     , "define": "≔"
     , "defined": "≔"
     , "def": "≔"
+
+    , "equiv": "≡"
 
     , "provable": "⊢"
 
@@ -63,14 +55,9 @@ sequences := {"neg": "¬"
     , "bottom": "⊥"
     , "0": "⊥"
 
-    , "multiply": "×"
-    , "multiplication": "×"
     , "mult": "×"
     , "product": "×"
     , "times": "×"
-    , "cartesianproduct": "×"
-    , "cartproduct": "×"
-    , "cartprod": "×"
     , "cross": "×"
 
     , "minus": "−"
@@ -84,17 +71,20 @@ sequences := {"neg": "¬"
     , "notin": "∉"
 
     , "union": "∪"
-
-    , "subset": "⊆"
-    , "subsetof": "⊆"
-
-    , "propersubset": "⊂"
-    , "psubset": "⊂"
-    , "strictsubset": "⊂"
+    , "cup": "∪"
 
     , "intersection": "∩"
     , "intersect": "∩"
     , "intersects": "∩"
+    , "cap": "∩"
+
+    , "subseteq": "⊆"
+
+    , "subset": "⊂"
+
+    , "supseteq": "⊇"
+
+    , "supset": "⊃"
 
     , "sdiff": "⊕"
     , "symdiff": "⊕"
@@ -113,20 +103,24 @@ sequences := {"neg": "¬"
     , "dotdotdot": "…"
     , "dots": "…"
 
+    , "n": "ℕ"
     , "natural": "ℕ"
     , "naturals": "ℕ"
     , "naturalnums": "ℕ"
     , "naturalnumbers": "ℕ"
 
+    , "z": "ℤ"
     , "integers": "ℤ"
     , "integer": "ℤ"
     , "ints": "ℤ"
 
+    , "q": "ℚ"
     , "rational": "ℚ"
     , "rationals": "ℚ"
     , "rationalnums": "ℚ"
     , "rationalnumbers": "ℚ"
 
+    , "p": "ℙ"
     , "irrational": "ℙ"
     , "irrationals": "ℙ"
     , "irrationalnums": "ℙ"
@@ -141,6 +135,7 @@ sequences := {"neg": "¬"
     , "algebraicnums": "𝔸"
     , "algebraicnumbers": "𝔸"
 
+    , "r": "ℝ"
     , "real": "ℝ"
     , "reals": "ℝ"
     , "realnums": "ℝ"
@@ -151,6 +146,7 @@ sequences := {"neg": "¬"
     , "imaginarynums": "𝕀"
     , "imaginarynumbers": "𝕀"
 
+    , "c": "ℂ"
     , "complex": "ℂ"
     , "complexnums": "ℂ"
     , "complexnumbers": "ℂ"
@@ -229,4 +225,8 @@ $^'::
         send {BS %longestMatchedNameLength%}
         send %longestMatchedNameSymbol%
     }        
+Return
+
+~$BackSpace::
+    inputQueue := SubStr(inputQueue, 1, StrLen(inputQueue) - 1)
 Return
