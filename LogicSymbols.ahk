@@ -99,6 +99,9 @@ sequences := {"neg": "¬"
 
     , "geq": "≥"
 
+    , "dot": "·"
+    , "cdot": "·"
+
     , "ellipsis": "…"
     , "dotdotdot": "…"
     , "dots": "…"
