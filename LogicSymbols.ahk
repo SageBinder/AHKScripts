@@ -102,6 +102,8 @@ sequences := {"neg": "¬"
     , "dot": "·"
     , "cdot": "·"
 
+    , "circ": "∘"
+
     , "ellipsis": "…"
     , "dotdotdot": "…"
     , "dots": "…"
