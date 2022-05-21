@@ -41,6 +41,8 @@ sequences := {"neg": "¬"
 
     , "equiv": "≡"
 
+    , "approx": "≈"
+
     , "provable": "⊢"
 
     , "entails": "⊨"
@@ -155,6 +157,8 @@ sequences := {"neg": "¬"
     , "complex": "ℂ"
     , "complexnums": "ℂ"
     , "complexnumbers": "ℂ"
+
+    , "phi": "φ"
 
     , "heart": "♡"}
 
